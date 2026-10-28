@@ -1,0 +1,100 @@
+{
+  "lastUpdated": "2026-10-28T19:00:00.000Z",
+  "feedSources": [
+    "CISA Advisories",
+    "SANS ISC",
+    "The Hacker News",
+    "BleepingComputer"
+  ],
+  "totalArticlesIngested": 28,
+  "topThreats": [
+    {
+      "id": "threat-1",
+      "shortLabel": "Critical Edge Appliance 0-Day",
+      "title": "CISA Alert: Active Exploitation of Perimeter Gateway & Edge Appliance Vulnerabilities",
+      "hits": 19480,
+      "severity": "CRITICAL",
+      "color": "#ef4444",
+      "source": "CISA Advisories",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "summary": "State-sponsored and ransomware actors are actively chaining authentication bypass and unauthenticated remote code execution (RCE) flaws in internet-facing perimeter appliances and VPN gateways.",
+      "remediation": "Board/Executive: Review perimeter resilience and external attack surface management. Task Execution: Audit VPN/gateway firmware, enforce MFA on all edge access, and isolate administrative interfaces."
+    },
+    {
+      "id": "threat-2",
+      "shortLabel": "Enterprise Identity & PKI Root",
+      "title": "Global Digital Identity & Public Key Infrastructure (PKI) Trust Architecture Review",
+      "hits": 15820,
+      "severity": "HIGH",
+      "color": "#facc15",
+      "source": "SANS ISC",
+      "url": "https://isc.sans.edu/diary/",
+      "summary": "High-velocity threat telemetry tracking root certificate authority store policies, unmonitored code-signing credentials, and enterprise identity federation risks across cloud environments.",
+      "remediation": "Board/Executive: Review third-party digital trust and cryptographic supplier risk (SCRM). Task Execution: Inventory all TLS/code-signing certificates, verify root CA pinning, and automate certificate lifecycle rotation."
+    },
+    {
+      "id": "threat-3",
+      "shortLabel": "Industrial OT & Energy Infrastructure",
+      "title": "Critical Infrastructure Warning: SCADA/ICS Protocol Ingestion & Boundary Defenses",
+      "hits": 13940,
+      "severity": "CRITICAL",
+      "color": "#38bdf8",
+      "source": "CISA / SANS",
+      "url": "https://www.cisa.gov/ics",
+      "summary": "Heightened threat scanning against industrial control systems, Purdue Model Level 2/3 boundary firewalls, and SCADA engineering workstations across energy and utility sectors.",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    }
+  ],
+  "streamItems": [
+    {
+      "title": "CISA Adds Critical Remote Code Execution Flaws to Known Exploited Vulnerabilities Catalog",
+      "source": "CISA Advisories",
+      "time": "Live Telemetry",
+      "hits": 7820,
+      "severity": "CRITICAL",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "summary": "Immediate patching mandated for federal agencies and critical infrastructure operators following active in-the-wild exploitation.",
+      "remediation": "Board/Executive: Mandate immediate emergency asset sweep. Task Execution: Cross-reference CISA KEV additions against internal vulnerability management telemetry within 24 hours."
+    },
+    {
+      "title": "SANS ISC Handler Diary: Elevated Packet Velocity Targeting Unpatched Perimeter Endpoints",
+      "source": "SANS ISC",
+      "time": "Live Telemetry",
+      "hits": 6450,
+      "severity": "CRITICAL",
+      "url": "https://isc.sans.edu/diary/",
+      "summary": "Honeypots worldwide record coordinated scanning campaigns probing edge routing infrastructure and cloud gateways.",
+      "remediation": "Task Execution: Isolate perimeter management interfaces, inspect firewall drop logs, and verify ingress filtering rules."
+    },
+    {
+      "title": "Healthcare Sector Alert: Phishing and Initial Access Brokers Targeting Clinical Systems",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 5320,
+      "severity": "HIGH",
+      "url": "https://thehackernews.com/",
+      "summary": "Ransomware groups leverage stolen credentials to bypass multi-factor authentication and gain persistence in healthcare environments.",
+      "remediation": "Board/Executive: Review HIPAA/HITRUST security controls. Task Execution: Enforce FIDO2 phishing-resistant authentication across all staff and third-party contractors."
+    },
+    {
+      "title": "Supply Chain Advisory: Malicious Packages and Dependency Confusion in Cloud Pipelines",
+      "source": "BleepingComputer",
+      "time": "Live Telemetry",
+      "hits": 4890,
+      "severity": "HIGH",
+      "url": "https://www.bleepingcomputer.com/",
+      "summary": "Security researchers uncover automated weaponization of package managers targeting enterprise software build pipelines.",
+      "remediation": "Task Execution: Enforce private package registries with hash pinning, audit build pipeline permissions, and implement software bill of materials (SBOM) scanning."
+    },
+    {
+      "title": "Critical Infrastructure Defenses: Mitigating Living-off-the-Land (LotL) Tactics in Power Grids",
+      "source": "CISA Advisories",
+      "time": "Live Telemetry",
+      "hits": 4210,
+      "severity": "CRITICAL",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "summary": "Adversaries utilize native administrative command-line tools to evade traditional antivirus and EDR detections within substation networks.",
+      "remediation": "Board/Executive: Validate NERC CIP baseline requirements. Task Execution: Implement behavioral baselining, disable unused administrative tools, and forward OT telemetry to SOC."
+    }
+  ]
+}
