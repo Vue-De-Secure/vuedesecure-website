@@ -1,0 +1,40 @@
+name: Refresh Global OSINT Threat Telemetry
+
+on:
+  schedule:
+    # Runs every 6 hours (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allows manual one-click trigger from the GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-osint:
+    name: Ingest and Normalize Threat Telemetry
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Ingest Threat Feeds (CISA, SANS, THN, BleepingComputer)
+        run: node scripts/fetch-osint.js
+
+      - name: Commit and Push Updated Telemetry
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add osint-data.json
+          if git diff --staged --quiet; then
+            echo "No telemetry changes detected."
+          else
+            git commit -m "chore(osint): automated live threat telemetry update [skip ci]"
+            git push
+          fi
