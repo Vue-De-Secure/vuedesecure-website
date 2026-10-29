@@ -18,23 +18,29 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Ingest Threat Feeds (CISA, SANS, THN, BleepingComputer)
         run: node scripts/fetch-osint.js
 
-      - name: Commit and Push Updated Telemetry
+      - name: Commit and Push Updated Telemetry to osint-data Branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          cp osint-data.json /tmp/osint-data.json
+          git fetch origin osint-data
+          git checkout -B osint-data origin/osint-data
+          cp /tmp/osint-data.json osint-data.json
           git add osint-data.json
           if git diff --staged --quiet; then
             echo "No telemetry changes detected."
           else
             git commit -m "chore(osint): automated live threat telemetry update [skip ci]"
-            git push
+            git push origin osint-data
           fi
