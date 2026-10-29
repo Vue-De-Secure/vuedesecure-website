@@ -1,100 +1,150 @@
 {
-  "lastUpdated": "2026-10-28T19:00:00.000Z",
+  "lastUpdated": "2026-10-29T12:45:19.416Z",
   "feedSources": [
     "CISA Advisories",
     "SANS ISC",
     "The Hacker News",
     "BleepingComputer"
   ],
-  "totalArticlesIngested": 28,
+  "totalArticlesIngested": 40,
   "topThreats": [
     {
       "id": "threat-1",
-      "shortLabel": "Critical Edge Appliance 0-Day",
-      "title": "CISA Alert: Active Exploitation of Perimeter Gateway & Edge Appliance Vulnerabilities",
-      "hits": 19480,
+      "shortLabel": "Mitsubishi Electric GENESIS GENESIS64",
+      "title": "Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+      "hits": 24801,
       "severity": "CRITICAL",
       "color": "#ef4444",
       "source": "CISA Advisories",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "summary": "State-sponsored and ransomware actors are actively chaining authentication bypass and unauthenticated remote code execution (RCE) flaws in internet-facing perimeter appliances and VPN gateways.",
-      "remediation": "Board/Executive: Review perimeter resilience and external attack surface management. Task Execution: Audit VPN/gateway firmware, enforce MFA on all edge access, and isolate administrative interfaces."
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-300-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863)",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
       "id": "threat-2",
-      "shortLabel": "Enterprise Identity & PKI Root",
-      "title": "Global Digital Identity & Public Key Infrastructure (PKI) Trust Architecture Review",
-      "hits": 15820,
-      "severity": "HIGH",
+      "shortLabel": "CISA Adds Two Known",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "hits": 22081,
+      "severity": "CRITICAL",
       "color": "#facc15",
-      "source": "SANS ISC",
-      "url": "https://isc.sans.edu/diary/",
-      "summary": "High-velocity threat telemetry tracking root certificate authority store policies, unmonitored code-signing credentials, and enterprise identity federation risks across cloud environments.",
-      "remediation": "Board/Executive: Review third-party digital trust and cryptographic supplier risk (SCRM). Task Execution: Inventory all TLS/code-signing certificates, verify root CA pinning, and automate certificate lifecycle rotation."
+      "source": "CISA Advisories",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-417",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
       "id": "threat-3",
-      "shortLabel": "Industrial OT & Energy Infrastructure",
-      "title": "Critical Infrastructure Warning: SCADA/ICS Protocol Ingestion & Boundary Defenses",
-      "hits": 13940,
+      "shortLabel": "New Cisco firewall zero-day",
+      "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+      "hits": 20755,
       "severity": "CRITICAL",
       "color": "#38bdf8",
-      "source": "CISA / SANS",
-      "url": "https://www.cisa.gov/ics",
-      "summary": "Heightened threat scanning against industrial control systems, Purdue Model Level 2/3 boundary firewalls, and SCADA engineering workstations across energy and utility sectors.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+      "summary": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     }
   ],
   "streamItems": [
     {
-      "title": "CISA Adds Critical Remote Code Execution Flaws to Known Exploited Vulnerabilities Catalog",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 7820,
+      "hits": 9194,
       "severity": "CRITICAL",
-      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "summary": "Immediate patching mandated for federal agencies and critical infrastructure operators following active in-the-wild exploitation.",
-      "remediation": "Board/Executive: Mandate immediate emergency asset sweep. Task Execution: Cross-reference CISA KEV additions against internal vulnerability management telemetry within 24 hours."
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-483",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
-      "title": "SANS ISC Handler Diary: Elevated Packet Velocity Targeting Unpatched Perimeter Endpoints",
-      "source": "SANS ISC",
-      "time": "Live Telemetry",
-      "hits": 6450,
-      "severity": "CRITICAL",
-      "url": "https://isc.sans.edu/diary/",
-      "summary": "Honeypots worldwide record coordinated scanning campaigns probing edge routing infrastructure and cloud gateways.",
-      "remediation": "Task Execution: Isolate perimeter management interfaces, inspect firewall drop logs, and verify ingress filtering rules."
-    },
-    {
-      "title": "Healthcare Sector Alert: Phishing and Initial Access Brokers Targeting Clinical Systems",
+      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
       "source": "The Hacker News",
       "time": "Live Telemetry",
-      "hits": 5320,
-      "severity": "HIGH",
-      "url": "https://thehackernews.com/",
-      "summary": "Ransomware groups leverage stolen credentials to bypass multi-factor authentication and gain persistence in healthcare environments.",
-      "remediation": "Board/Executive: Review HIPAA/HITRUST security controls. Task Execution: Enforce FIDO2 phishing-resistant authentication across all staff and third-party contractors."
+      "hits": 8658,
+      "severity": "CRITICAL",
+      "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+      "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated ",
+      "remediation": "Board/Executive: Review perimeter resilience and external attack surface management. Task Execution: Audit VPN/gateway firmware, enforce MFA on all edge access, and isolate administrative interfaces."
     },
     {
-      "title": "Supply Chain Advisory: Malicious Packages and Dependency Confusion in Cloud Pipelines",
-      "source": "BleepingComputer",
+      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+      "source": "The Hacker News",
       "time": "Live Telemetry",
-      "hits": 4890,
-      "severity": "HIGH",
-      "url": "https://www.bleepingcomputer.com/",
-      "summary": "Security researchers uncover automated weaponization of package managers targeting enterprise software build pipelines.",
-      "remediation": "Task Execution: Enforce private package registries with hash pinning, audit build pipeline permissions, and implement software bill of materials (SBOM) scanning."
+      "hits": 8209,
+      "severity": "CRITICAL",
+      "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+      "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
-      "title": "Critical Infrastructure Defenses: Mitigating Living-off-the-Land (LotL) Tactics in Power Grids",
+      "title": "EPICS Base",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 4210,
+      "hits": 7614,
+      "severity": "HIGH",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-300-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, c",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
+      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 7452,
       "severity": "CRITICAL",
-      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-      "summary": "Adversaries utilize native administrative command-line tools to evade traditional antivirus and EDR detections within substation networks.",
-      "remediation": "Board/Executive: Validate NERC CIP baseline requirements. Task Execution: Implement behavioral baselining, disable unused administrative tools, and forward OT telemetry to SOC."
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Wa",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+    },
+    {
+      "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+      "source": "BleepingComputer",
+      "time": "Live Telemetry",
+      "hits": 7010,
+      "severity": "CRITICAL",
+      "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+      "summary": "U.S. law enforcement has seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums for facilitating illegal activities. [...]",
+      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
+    },
+    {
+      "title": "Windows 11 KB5127936 update released with 41 changes and fixes",
+      "source": "BleepingComputer",
+      "time": "Live Telemetry",
+      "hits": 6870,
+      "severity": "HIGH",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
+      "summary": "Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+    },
+    {
+      "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+      "source": "BleepingComputer",
+      "time": "Live Telemetry",
+      "hits": 6725,
+      "severity": "CRITICAL",
+      "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+      "summary": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
+      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+      "source": "BleepingComputer",
+      "time": "Live Telemetry",
+      "hits": 6684,
+      "severity": "CRITICAL",
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+      "summary": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and other appliances at risk. [...]",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
+      "title": "Siemens RUGGEDCOM APE1808 Devices",
+      "source": "CISA Advisories",
+      "time": "Live Telemetry",
+      "hits": 6489,
+      "severity": "HIGH",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-18",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-295-18.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Nozomi Networks has published information on vulnerabilities in Nozomi Guardian/CMC. This advisory lists the relat",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     }
   ]
 }
