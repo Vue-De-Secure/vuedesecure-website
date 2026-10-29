@@ -34,6 +34,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           cp osint-data.json /tmp/osint-data.json
+          git reset --hard HEAD
           git fetch origin osint-data
           git checkout -B osint-data origin/osint-data
           cp /tmp/osint-data.json osint-data.json
