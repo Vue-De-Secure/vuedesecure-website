@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T12:43:01.943Z",
+  "lastUpdated": "2026-11-01T18:37:42.784Z",
   "feedSources": [
     "CISA Advisories",
     "SANS ISC",
@@ -67,6 +67,16 @@
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "source": "BleepingComputer",
+      "time": "Live Telemetry",
+      "hits": 8553,
+      "severity": "CRITICAL",
+      "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
+      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
+    },
+    {
       "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
       "source": "The Hacker News",
       "time": "Live Telemetry",
@@ -110,7 +120,7 @@
       "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
-      "hits": 7764,
+      "hits": 7269,
       "severity": "CRITICAL",
       "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
       "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...",
@@ -120,27 +130,17 @@
       "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
-      "hits": 7465,
+      "hits": 6970,
       "severity": "CRITICAL",
       "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
       "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
-      "title": "CISA says max severity GitLab flaw now exploited in the wild",
-      "source": "BleepingComputer",
-      "time": "Live Telemetry",
-      "hits": 7416,
-      "severity": "CRITICAL",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-      "summary": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
-      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
-    },
-    {
       "title": "Northflank security breach leads to abuse of customers' AI API keys",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
-      "hits": 7088,
+      "hits": 6593,
       "severity": "HIGH",
       "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
       "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
