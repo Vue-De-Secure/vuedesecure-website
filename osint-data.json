@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T18:37:42.784Z",
+  "lastUpdated": "2026-11-02T00:54:39.045Z",
   "feedSources": [
     "CISA Advisories",
     "SANS ISC",
@@ -67,16 +67,6 @@
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
-      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
-      "source": "BleepingComputer",
-      "time": "Live Telemetry",
-      "hits": 8553,
-      "severity": "CRITICAL",
-      "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
-      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
-      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
-    },
-    {
       "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
       "source": "The Hacker News",
       "time": "Live Telemetry",
@@ -95,6 +85,16 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-483",
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+    },
+    {
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "source": "BleepingComputer",
+      "time": "Live Telemetry",
+      "hits": 8305,
+      "severity": "CRITICAL",
+      "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
+      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
     },
     {
       "title": "Hitachi Energy CoreTec Product",
@@ -120,7 +120,7 @@
       "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
-      "hits": 7269,
+      "hits": 7021,
       "severity": "CRITICAL",
       "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
       "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...",
@@ -130,20 +130,20 @@
       "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
-      "hits": 6970,
+      "hits": 6722,
       "severity": "CRITICAL",
       "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
       "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
-      "title": "Northflank security breach leads to abuse of customers' AI API keys",
-      "source": "BleepingComputer",
+      "title": "EPICS Base",
+      "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 6593,
+      "hits": 6376,
       "severity": "HIGH",
-      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-      "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-300-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, c",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     }
   ]
