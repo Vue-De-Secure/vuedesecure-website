@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T00:54:39.045Z",
+  "lastUpdated": "2026-11-02T07:15:42.881Z",
   "feedSources": [
     "CISA Advisories",
     "SANS ISC",
@@ -12,7 +12,7 @@
       "id": "threat-1",
       "shortLabel": "Attackers Chain Three Ivanti",
       "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-      "hits": 26540,
+      "hits": 25990,
       "severity": "CRITICAL",
       "color": "#ef4444",
       "source": "The Hacker News",
@@ -67,16 +67,6 @@
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
-      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
-      "source": "The Hacker News",
-      "time": "Live Telemetry",
-      "hits": 8462,
-      "severity": "CRITICAL",
-      "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker wou",
-      "remediation": "Board/Executive: Review third-party digital trust and cryptographic supplier risk (SCRM). Task Execution: Inventory all TLS/code-signing certificates, verify root CA pinning, and automate certificate lifecycle rotation."
-    },
-    {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
@@ -95,6 +85,16 @@
       "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
       "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise. [...]",
       "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
+    },
+    {
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 8214,
+      "severity": "CRITICAL",
+      "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker wou",
+      "remediation": "Board/Executive: Review third-party digital trust and cryptographic supplier risk (SCRM). Task Execution: Inventory all TLS/code-signing certificates, verify root CA pinning, and automate certificate lifecycle rotation."
     },
     {
       "title": "Hitachi Energy CoreTec Product",
