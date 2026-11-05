@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T00:55:51.187Z",
+  "lastUpdated": "2026-11-05T07:08:49.592Z",
   "feedSources": [
     "SANS ISC",
     "The Hacker News",
@@ -21,21 +21,21 @@
     },
     {
       "id": "threat-2",
-      "shortLabel": "Google Issues Patches for",
-      "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-      "hits": 19960,
+      "shortLabel": "Zyxel fixes zero-day exploited",
+      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+      "hits": 17128,
       "severity": "CRITICAL",
       "color": "#facc15",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-      "summary": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+      "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
       "id": "threat-3",
       "shortLabel": "SonicWall Wont Patch EoL",
       "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-      "hits": 18167,
+      "hits": 17067,
       "severity": "CRITICAL",
       "color": "#38bdf8",
       "source": "The Hacker News",
@@ -46,26 +46,6 @@
   ],
   "streamItems": [
     {
-      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-      "source": "BleepingComputer",
-      "time": "Live Telemetry",
-      "hits": 7708,
-      "severity": "CRITICAL",
-      "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-      "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
-      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
-    },
-    {
-      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-      "source": "The Hacker News",
-      "time": "Live Telemetry",
-      "hits": 7568,
-      "severity": "CRITICAL",
-      "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-      "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1 an",
-      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
-    },
-    {
       "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
@@ -74,6 +54,16 @@
       "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
       "summary": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearl",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
+      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 7073,
+      "severity": "CRITICAL",
+      "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+      "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1 an",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
       "title": "Vercel rolls out new protection against stolen session cookie attacks",
@@ -96,23 +86,23 @@
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
+      "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 6709,
+      "severity": "CRITICAL",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in ques",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+    },
+    {
       "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
       "source": "The Hacker News",
       "time": "Live Telemetry",
-      "hits": 6504,
+      "hits": 6009,
       "severity": "HIGH",
       "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-      "summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"Th",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
-    },
-    {
-      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-      "source": "The Hacker News",
-      "time": "Live Telemetry",
-      "hits": 5484,
-      "severity": "HIGH",
-      "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-      "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that Debian, Ubuntu, and APT's developers published on November 4.",
+      "summary": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
@@ -126,6 +116,16 @@
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
+      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 4989,
+      "severity": "HIGH",
+      "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that Debian, Ubuntu, and APT's developers published on November 4.",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
       "title": "Mutipath TCP: Use and Detection, (Mon, Nov 2nd)",
       "source": "SANS ISC",
       "time": "Live Telemetry",
@@ -136,14 +136,14 @@
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
-      "title": "ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)",
-      "source": "SANS ISC",
+      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+      "source": "The Hacker News",
       "time": "Live Telemetry",
-      "hits": 4911,
+      "hits": 4937,
       "severity": "HIGH",
-      "url": "https://isc.sans.edu/diary/rss/33486",
-      "summary": "Active cybersecurity advisory from authoritative global threat stream.",
-      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+      "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+      "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate L",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     }
   ]
 }
