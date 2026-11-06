@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T14:04:46.558Z",
+  "lastUpdated": "2026-11-06T22:57:00.660Z",
   "feedSources": [
     "CISA Advisories",
     "SANS ISC",
@@ -12,7 +12,7 @@
       "id": "threat-1",
       "shortLabel": "Microsoft Paint RCE Fix",
       "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-      "hits": 25762,
+      "hits": 24112,
       "severity": "CRITICAL",
       "color": "#ef4444",
       "source": "The Hacker News",
@@ -24,7 +24,7 @@
       "id": "threat-2",
       "shortLabel": "CISA Adds Two Known",
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "hits": 19331,
+      "hits": 18781,
       "severity": "CRITICAL",
       "color": "#facc15",
       "source": "CISA Advisories",
@@ -34,56 +34,46 @@
     },
     {
       "id": "threat-3",
-      "shortLabel": "Siemens Mendix SAML Module",
-      "title": "Siemens Mendix SAML Module",
-      "hits": 18864,
+      "shortLabel": "Hackers Target OpenSSH SSHole",
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "hits": 18434,
       "severity": "CRITICAL",
       "color": "#38bdf8",
-      "source": "CISA Advisories",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
-      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-302-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote atta",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), ",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     }
   ],
   "streamItems": [
     {
-      "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
-      "source": "BleepingComputer",
+      "title": "Siemens Mendix SAML Module",
+      "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 8314,
+      "hits": 8241,
       "severity": "CRITICAL",
-      "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
-      "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
-      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-302-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote atta",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
-      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
       "source": "The Hacker News",
       "time": "Live Telemetry",
-      "hits": 7408,
+      "hits": 8070,
       "severity": "CRITICAL",
-      "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
-      "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, whic",
+      "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacke",
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
       "title": "Subnet Solutions PowerSYSTEM Center",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 7340,
+      "hits": 7092,
       "severity": "HIGH",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01",
       "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-307-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized SQL commands and ",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
-    },
-    {
-      "title": "Hitachi Energy CoreTec Product",
-      "source": "CISA Advisories",
-      "time": "Live Telemetry",
-      "hits": 6934,
-      "severity": "HIGH",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
-      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-302-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product version",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
@@ -97,24 +87,44 @@
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
-      "title": "Post-Quantum Questions to Ask Your Vendors",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 6768,
-      "severity": "HIGH",
-      "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
-      "summary": "<p>CISA, the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and the National Security Agency (NSA) released joint guidance and an accompanying quick-reference list to help organizations assess vendor readiness for transitioning to post-quantum cryp",
+      "hits": 6849,
+      "severity": "CRITICAL",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul type=\"disc\"> <li><a href=\"https://www.cve.org/CVERecord?id=CV",
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
-      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+      "title": "Hitachi Energy CoreTec Product",
+      "source": "CISA Advisories",
+      "time": "Live Telemetry",
+      "hits": 6686,
+      "severity": "HIGH",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-302-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product version",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
+      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
       "source": "The Hacker News",
       "time": "Live Telemetry",
-      "hits": 6454,
+      "hits": 6665,
       "severity": "CRITICAL",
-      "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-      "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users. \"While we investigated, we removed access to Reactor and Data Solutio",
-      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
+      "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+      "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, whic",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+    },
+    {
+      "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+      "source": "BleepingComputer",
+      "time": "Live Telemetry",
+      "hits": 6581,
+      "severity": "CRITICAL",
+      "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+      "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
       "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
@@ -127,24 +137,14 @@
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "title": "Post-Quantum Questions to Ask Your Vendors",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 6354,
-      "severity": "CRITICAL",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul type=\"disc\"> <li><a href=\"https://www.cve.org/CVERecord?id=CV",
+      "hits": 6273,
+      "severity": "HIGH",
+      "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+      "summary": "<p>CISA, the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and the National Security Agency (NSA) released joint guidance and an accompanying quick-reference list to help organizations assess vendor readiness for transitioning to post-quantum cryp",
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
-    },
-    {
-      "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
-      "source": "SANS ISC",
-      "time": "Live Telemetry",
-      "hits": 6201,
-      "severity": "CRITICAL",
-      "url": "https://isc.sans.edu/diary/rss/33488",
-      "summary": "One of the early web application vulnerabilities I remember was CVE-2000-0411 &#x5b;CVE&#x5d;. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked environment variabl",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     }
   ]
 }
