@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T22:57:00.660Z",
+  "lastUpdated": "2026-11-07T05:38:28.071Z",
   "feedSources": [
     "CISA Advisories",
     "SANS ISC",
@@ -22,30 +22,40 @@
     },
     {
       "id": "threat-2",
+      "shortLabel": "SonicWall warns of new",
+      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+      "hits": 20295,
+      "severity": "CRITICAL",
+      "color": "#facc15",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+      "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+      "remediation": "Board/Executive: Review perimeter resilience and external attack surface management. Task Execution: Audit VPN/gateway firmware, enforce MFA on all edge access, and isolate administrative interfaces."
+    },
+    {
+      "id": "threat-3",
       "shortLabel": "CISA Adds Two Known",
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "hits": 18781,
       "severity": "CRITICAL",
-      "color": "#facc15",
+      "color": "#38bdf8",
       "source": "CISA Advisories",
       "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-111",
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
-    },
-    {
-      "id": "threat-3",
-      "shortLabel": "Hackers Target OpenSSH SSHole",
-      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-      "hits": 18434,
-      "severity": "CRITICAL",
-      "color": "#38bdf8",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-      "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), ",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     }
   ],
   "streamItems": [
+    {
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 8295,
+      "severity": "CRITICAL",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), ",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
     {
       "title": "Siemens Mendix SAML Module",
       "source": "CISA Advisories",
@@ -117,16 +127,6 @@
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
-      "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
-      "source": "BleepingComputer",
-      "time": "Live Telemetry",
-      "hits": 6581,
-      "severity": "CRITICAL",
-      "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
-      "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
-      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
-    },
-    {
       "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
@@ -137,13 +137,13 @@
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
-      "title": "Post-Quantum Questions to Ask Your Vendors",
-      "source": "CISA Advisories",
+      "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+      "source": "BleepingComputer",
       "time": "Live Telemetry",
-      "hits": 6273,
-      "severity": "HIGH",
-      "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
-      "summary": "<p>CISA, the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and the National Security Agency (NSA) released joint guidance and an accompanying quick-reference list to help organizations assess vendor readiness for transitioning to post-quantum cryp",
+      "hits": 6334,
+      "severity": "CRITICAL",
+      "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+      "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     }
   ]
