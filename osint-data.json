@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T14:42:26.224Z",
+  "lastUpdated": "2026-11-10T23:06:02.734Z",
   "feedSources": [
     "CISA Advisories",
     "SANS ISC",
@@ -10,77 +10,117 @@
   "topThreats": [
     {
       "id": "threat-1",
-      "shortLabel": "Turla hackers use new",
-      "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
-      "hits": 19296,
+      "shortLabel": "Hackers Exploit Critical Xen",
+      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+      "hits": 23774,
       "severity": "CRITICAL",
       "color": "#ef4444",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
-      "summary": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
-      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild. The authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062. \"REST cookie parsing turn",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
       "id": "threat-2",
-      "shortLabel": "Google patches eighth Chrome",
-      "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
-      "hits": 18768,
+      "shortLabel": "Critical Xen Orchestra auth",
+      "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+      "hits": 22229,
       "severity": "CRITICAL",
       "color": "#facc15",
       "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-      "summary": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+      "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
       "id": "threat-3",
-      "shortLabel": "CISA Adds Two Known",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "hits": 18231,
+      "shortLabel": "CISA Adds Six Known",
+      "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+      "hits": 21345,
       "severity": "CRITICAL",
       "color": "#38bdf8",
       "source": "CISA Advisories",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-111",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+      "summary": "<p>CISA has added six new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-203",
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     }
   ],
   "streamItems": [
     {
-      "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
-      "source": "The Hacker News",
-      "time": "Live Telemetry",
-      "hits": 7789,
-      "severity": "CRITICAL",
-      "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
-      "summary": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell. \"As a precautionary measure, we are te",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
-    },
-    {
-      "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+      "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
-      "hits": 7714,
+      "hits": 8806,
       "severity": "CRITICAL",
-      "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
-      "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable sys",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+      "summary": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA Advisories",
+      "time": "Live Telemetry",
+      "hits": 7956,
+      "severity": "CRITICAL",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "summary": "<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-111",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+    },
+    {
+      "title": "Microsoft Patch Tuesday November 2027 , (Tue, Nov 10th)",
+      "source": "SANS ISC",
+      "time": "Live Telemetry",
+      "hits": 7929,
+      "severity": "CRITICAL",
+      "url": "https://isc.sans.edu/diary/rss/33508",
+      "summary": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.&#xd;",
+      "remediation": "Board/Executive: Review perimeter resilience and external attack surface management. Task Execution: Audit VPN/gateway firmware, enforce MFA on all edge access, and isolate administrative interfaces."
+    },
+    {
+      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 7267,
+      "severity": "CRITICAL",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+      "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 an",
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
       "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
       "source": "SANS ISC",
       "time": "Live Telemetry",
-      "hits": 7490,
+      "hits": 7242,
       "severity": "CRITICAL",
       "url": "https://isc.sans.edu/diary/rss/33498",
       "summary": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of SS",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
+      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 6867,
+      "severity": "CRITICAL",
+      "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen requests being processed on that server that day, including requests sent in confidenti",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
+      "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+      "source": "BleepingComputer",
+      "time": "Live Telemetry",
+      "hits": 6813,
+      "severity": "CRITICAL",
+      "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+      "summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 6894,
+      "hits": 6647,
       "severity": "CRITICAL",
       "url": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
       "summary": "<div class=\"OutlineElement Ltr SCXW266414493 BCX8\"> <p>CISA has added four new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active exploitation. </p> <u",
@@ -90,60 +130,20 @@
       "title": "Subnet Solutions PowerSYSTEM Center",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 6845,
+      "hits": 6597,
       "severity": "HIGH",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01",
       "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-307-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized SQL commands and ",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "source": "CISA Advisories",
-      "time": "Live Telemetry",
-      "hits": 6602,
-      "severity": "CRITICAL",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary": "<p>CISA has added one new vulnerability to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul type=\"disc\"> <li><a href=\"https://www.cve.org/CVERecord?id=CV",
-      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
-    },
-    {
-      "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-      "source": "The Hacker News",
-      "time": "Live Telemetry",
-      "hits": 6507,
-      "severity": "CRITICAL",
-      "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-      "summary": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug ",
-      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
-    },
-    {
-      "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
-      "source": "The Hacker News",
-      "time": "Live Telemetry",
-      "hits": 6385,
-      "severity": "HIGH",
-      "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
-      "summary": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score. Three are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the We",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
-    },
-    {
-      "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+      "title": "Microsoft releases Windows 10 KB5131096 extended security update",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
-      "hits": 6305,
-      "severity": "CRITICAL",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
-      "summary": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
-    },
-    {
-      "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-      "source": "The Hacker News",
-      "time": "Live Telemetry",
-      "hits": 6280,
+      "hits": 6505,
       "severity": "HIGH",
-      "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
-      "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails. According to an ESET",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+      "summary": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     }
   ]
