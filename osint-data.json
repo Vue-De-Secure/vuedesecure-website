@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T23:06:02.734Z",
+  "lastUpdated": "2026-11-11T05:47:07.073Z",
   "feedSources": [
     "CISA Advisories",
     "SANS ISC",
@@ -70,7 +70,7 @@
       "title": "Microsoft Patch Tuesday November 2027 , (Tue, Nov 10th)",
       "source": "SANS ISC",
       "time": "Live Telemetry",
-      "hits": 7929,
+      "hits": 7682,
       "severity": "CRITICAL",
       "url": "https://isc.sans.edu/diary/rss/33508",
       "summary": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.&#xd;",
@@ -90,7 +90,7 @@
       "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
       "source": "SANS ISC",
       "time": "Live Telemetry",
-      "hits": 7242,
+      "hits": 6995,
       "severity": "CRITICAL",
       "url": "https://isc.sans.edu/diary/rss/33498",
       "summary": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the first 255 characters of SS",
