@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T23:27:04.297Z",
+  "lastUpdated": "2026-11-13T06:12:33.588Z",
   "feedSources": [
     "CISA Advisories",
     "SANS ISC",
@@ -47,16 +47,6 @@
   ],
   "streamItems": [
     {
-      "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
-      "source": "SANS ISC",
-      "time": "Live Telemetry",
-      "hits": 9974,
-      "severity": "CRITICAL",
-      "url": "https://isc.sans.edu/diary/rss/33514",
-      "summary": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end ",
-      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
-    },
-    {
       "title": "Siemens Building Automation and Energy Products",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
@@ -65,6 +55,16 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
       "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code ",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
+      "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+      "source": "SANS ISC",
+      "time": "Live Telemetry",
+      "hits": 9479,
+      "severity": "CRITICAL",
+      "url": "https://isc.sans.edu/diary/rss/33514",
+      "summary": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end ",
+      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
     },
     {
       "title": "Siemens Desigo, Gridscale",
@@ -90,31 +90,11 @@
       "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
       "source": "The Hacker News",
       "time": "Live Telemetry",
-      "hits": 7903,
+      "hits": 7655,
       "severity": "CRITICAL",
       "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
       "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys ",
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
-    },
-    {
-      "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-      "source": "The Hacker News",
-      "time": "Live Telemetry",
-      "hits": 7560,
-      "severity": "CRITICAL",
-      "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
-      "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler G",
-      "remediation": "Board/Executive: Review perimeter resilience and external attack surface management. Task Execution: Audit VPN/gateway firmware, enforce MFA on all edge access, and isolate administrative interfaces."
-    },
-    {
-      "title": "Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)",
-      "source": "SANS ISC",
-      "time": "Live Telemetry",
-      "hits": 7524,
-      "severity": "CRITICAL",
-      "url": "https://isc.sans.edu/diary/rss/33508",
-      "summary": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.&#xd;",
-      "remediation": "Board/Executive: Review perimeter resilience and external attack surface management. Task Execution: Audit VPN/gateway firmware, enforce MFA on all edge access, and isolate administrative interfaces."
     },
     {
       "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
@@ -127,6 +107,16 @@
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
+      "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 7313,
+      "severity": "CRITICAL",
+      "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+      "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass. The critical vulnerabilities that impact NetScaler ADC and NetScaler G",
+      "remediation": "Board/Executive: Review perimeter resilience and external attack surface management. Task Execution: Audit VPN/gateway firmware, enforce MFA on all edge access, and isolate administrative interfaces."
+    },
+    {
       "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
@@ -135,6 +125,16 @@
       "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
       "summary": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security u",
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+    },
+    {
+      "title": "Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)",
+      "source": "SANS ISC",
+      "time": "Live Telemetry",
+      "hits": 7029,
+      "severity": "CRITICAL",
+      "url": "https://isc.sans.edu/diary/rss/33508",
+      "summary": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.&#xd;",
+      "remediation": "Board/Executive: Review perimeter resilience and external attack surface management. Task Execution: Audit VPN/gateway firmware, enforce MFA on all edge access, and isolate administrative interfaces."
     },
     {
       "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
