@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T19:29:24.731Z",
+  "lastUpdated": "2026-11-14T05:56:37.119Z",
   "feedSources": [
     "CISA Advisories",
     "SANS ISC",
@@ -12,7 +12,7 @@
       "id": "threat-1",
       "shortLabel": "Siemens RUGGEDCOM APE1808",
       "title": "Siemens RUGGEDCOM APE1808",
-      "hits": 24314,
+      "hits": 23764,
       "severity": "CRITICAL",
       "color": "#ef4444",
       "source": "CISA Advisories",
@@ -24,7 +24,7 @@
       "id": "threat-2",
       "shortLabel": "Siemens RUGGEDCOM APE1808",
       "title": "Siemens RUGGEDCOM APE1808",
-      "hits": 23764,
+      "hits": 23214,
       "severity": "CRITICAL",
       "color": "#facc15",
       "source": "CISA Advisories",
@@ -36,7 +36,7 @@
       "id": "threat-3",
       "shortLabel": "Siemens Industrial Edge Management",
       "title": "Siemens Industrial Edge Management",
-      "hits": 22461,
+      "hits": 21911,
       "severity": "CRITICAL",
       "color": "#38bdf8",
       "source": "CISA Advisories",
@@ -46,16 +46,6 @@
     }
   ],
   "streamItems": [
-    {
-      "title": "Siemens Building Automation and Energy Products",
-      "source": "CISA Advisories",
-      "time": "Live Telemetry",
-      "hits": 9596,
-      "severity": "CRITICAL",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
-      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code ",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
-    },
     {
       "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
       "source": "SANS ISC",
@@ -67,10 +57,20 @@
       "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
     },
     {
+      "title": "Siemens Building Automation and Energy Products",
+      "source": "CISA Advisories",
+      "time": "Live Telemetry",
+      "hits": 9348,
+      "severity": "CRITICAL",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code ",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
       "title": "Siemens Desigo, Gridscale",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 8400,
+      "hits": 8153,
       "severity": "CRITICAL",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
       "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brot",
@@ -80,7 +80,7 @@
       "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 8368,
+      "hits": 8120,
       "severity": "CRITICAL",
       "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
       "summary": "<p>CISA has added six new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\">Known Exploited Vulnerabilities (KEV) Catalog</a>, based on evidence of active exploitation.</p> <ul> <li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-203",
@@ -90,7 +90,7 @@
       "title": "Check Point warns of zero-day flaw exploited for root access",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
-      "hits": 8300,
+      "hits": 8052,
       "severity": "CRITICAL",
       "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
       "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
@@ -107,6 +107,16 @@
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA Advisories",
+      "time": "Live Telemetry",
+      "hits": 7146,
+      "severity": "CRITICAL",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "summary": "<div class=\"OutlineElement Ltr SCXW1462417 BCX8\"> <p>CISA has added two new vulnerabilities to its <a class=\"Hyperlink SCXW1462417 BCX8\" href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" rel=\"noreferrer noopener\"><u>Known Exploited Vulnerabilities (KEV) Catalog<",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+    },
+    {
       "title": "Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)",
       "source": "SANS ISC",
       "time": "Live Telemetry",
@@ -120,7 +130,7 @@
       "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
-      "hits": 6821,
+      "hits": 6573,
       "severity": "HIGH",
       "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
       "summary": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
@@ -135,16 +145,6 @@
       "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
       "summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it r",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
-    },
-    {
-      "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-      "source": "The Hacker News",
-      "time": "Live Telemetry",
-      "hits": 6443,
-      "severity": "CRITICAL",
-      "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
-      "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian",
-      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
     }
   ]
 }
