@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T13:50:39.975Z",
+  "lastUpdated": "2026-11-15T22:42:19.793Z",
   "feedSources": [
     "CISA Advisories",
     "SANS ISC",
@@ -47,16 +47,6 @@
   ],
   "streamItems": [
     {
-      "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
-      "source": "SANS ISC",
-      "time": "Live Telemetry",
-      "hits": 9479,
-      "severity": "CRITICAL",
-      "url": "https://isc.sans.edu/diary/rss/33514",
-      "summary": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end ",
-      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
-    },
-    {
       "title": "Siemens Building Automation and Energy Products",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
@@ -65,6 +55,16 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
       "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-316-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code ",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
+      "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+      "source": "SANS ISC",
+      "time": "Live Telemetry",
+      "hits": 9231,
+      "severity": "CRITICAL",
+      "url": "https://isc.sans.edu/diary/rss/33514",
+      "summary": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end ",
+      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
     },
     {
       "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
@@ -97,16 +97,6 @@
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
-      "title": "Check Point warns of zero-day flaw exploited for root access",
-      "source": "BleepingComputer",
-      "time": "Live Telemetry",
-      "hits": 7557,
-      "severity": "CRITICAL",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-      "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
-    },
-    {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
@@ -117,34 +107,44 @@
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
+      "title": "Check Point warns of zero-day flaw exploited for root access",
+      "source": "BleepingComputer",
+      "time": "Live Telemetry",
+      "hits": 7062,
+      "severity": "CRITICAL",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+      "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
+      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+      "source": "BleepingComputer",
+      "time": "Live Telemetry",
+      "hits": 6953,
+      "severity": "HIGH",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+    },
+    {
       "title": "Microsoft Patch Tuesday November 2026, (Tue, Nov 10th)",
       "source": "SANS ISC",
       "time": "Live Telemetry",
-      "hits": 7029,
+      "hits": 6782,
       "severity": "CRITICAL",
       "url": "https://isc.sans.edu/diary/rss/33508",
       "summary": "Microsoft continues its AI-induced patch surge, addressing 1,260 different vulnerabilities this month. 68 of these vulnerabilities are considered critical. 167 of the vulnerabilities are Chromium issues affecting Microsoft Edge.&#xd;",
       "remediation": "Board/Executive: Review perimeter resilience and external attack surface management. Task Execution: Audit VPN/gateway firmware, enforce MFA on all edge access, and isolate administrative interfaces."
     },
     {
-      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-      "source": "The Hacker News",
-      "time": "Live Telemetry",
-      "hits": 6557,
-      "severity": "CRITICAL",
-      "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
-      "summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
-    },
-    {
-      "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+      "title": "TSMC employee data breach linked to cloud provider",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
-      "hits": 6078,
+      "hits": 6577,
       "severity": "HIGH",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
-      "summary": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
-      "remediation": "Board/Executive: Review perimeter resilience and external attack surface management. Task Execution: Audit VPN/gateway firmware, enforce MFA on all edge access, and isolate administrative interfaces."
+      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     }
   ]
 }
