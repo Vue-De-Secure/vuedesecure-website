@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T00:51:41.284Z",
+  "lastUpdated": "2026-11-18T15:28:41.961Z",
   "feedSources": [
     "CISA Advisories",
     "SANS ISC",
@@ -10,38 +10,38 @@
   "topThreats": [
     {
       "id": "threat-1",
-      "shortLabel": "Oracle to Patch 11",
-      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
-      "hits": 24876,
+      "shortLabel": "CISA Urges Immediate Patching",
+      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+      "hits": 22324,
       "severity": "CRITICAL",
       "color": "#ef4444",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
-      "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK. T",
+      "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can l",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
       "id": "threat-2",
-      "shortLabel": "Siemens SIMATIC",
-      "title": "Siemens SIMATIC",
-      "hits": 19526,
+      "shortLabel": "Java4Shell Flaw CVE-2026-114938 Enables",
+      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+      "hits": 21415,
       "severity": "CRITICAL",
       "color": "#facc15",
-      "source": "CISA Advisories",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
-      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-08.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to t",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+      "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is present in Java 17.0.6 and later, and the vu",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
       "id": "threat-3",
-      "shortLabel": "Critical Java4Shell flaw allows",
-      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
-      "hits": 18773,
+      "shortLabel": "Siemens SIMATIC",
+      "title": "Siemens SIMATIC",
+      "hits": 19526,
       "severity": "CRITICAL",
       "color": "#38bdf8",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
-      "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
+      "source": "CISA Advisories",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-08.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to t",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     }
   ],
@@ -77,10 +77,20 @@
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
+      "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+      "source": "BleepingComputer",
+      "time": "Live Telemetry",
+      "hits": 8109,
+      "severity": "CRITICAL",
+      "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+      "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
+      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
+    },
+    {
       "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
       "source": "SANS ISC",
       "time": "Live Telemetry",
-      "hits": 8241,
+      "hits": 7994,
       "severity": "CRITICAL",
       "url": "https://isc.sans.edu/diary/rss/33514",
       "summary": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which was released at the end ",
@@ -110,41 +120,31 @@
       "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
       "source": "SANS ISC",
       "time": "Live Telemetry",
-      "hits": 7515,
+      "hits": 7267,
       "severity": "CRITICAL",
       "url": "https://isc.sans.edu/diary/rss/33522",
       "summary": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilities can be chained to achieve remote cod",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
-      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
-      "source": "The Hacker News",
-      "time": "Live Telemetry",
-      "hits": 7404,
-      "severity": "CRITICAL",
-      "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
-      "summary": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company. Widgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's ",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
-    },
-    {
-      "title": "Siemens Industrial Software Products",
-      "source": "CISA Advisories",
-      "time": "Live Telemetry",
-      "hits": 7083,
-      "severity": "CRITICAL",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
-      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-04.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brot",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
-    },
-    {
-      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
-      "hits": 6704,
+      "hits": 7210,
       "severity": "CRITICAL",
-      "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
-      "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
-      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+      "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+      "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
+      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 7179,
+      "severity": "CRITICAL",
+      "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing rep",
+      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
     }
   ]
 }
