@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T06:16:15.219Z",
+  "lastUpdated": "2026-11-22T19:23:53.433Z",
   "feedSources": [
     "CISA Advisories",
     "SANS ISC",
@@ -22,27 +22,27 @@
     },
     {
       "id": "threat-2",
-      "shortLabel": "Hackers use autonomous AI",
-      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-      "hits": 20058,
-      "severity": "CRITICAL",
-      "color": "#facc15",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-      "summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
-      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
-    },
-    {
-      "id": "threat-3",
       "shortLabel": "Attackers AI Agents Found",
       "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
       "hits": 19914,
       "severity": "CRITICAL",
-      "color": "#38bdf8",
+      "color": "#facc15",
       "source": "The Hacker News",
       "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
       "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
+      "id": "threat-3",
+      "shortLabel": "Hackers use autonomous AI",
+      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+      "hits": 18408,
+      "severity": "CRITICAL",
+      "color": "#38bdf8",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+      "summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
+      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
     }
   ],
   "streamItems": [
@@ -97,13 +97,13 @@
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
-      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
-      "hits": 7097,
-      "severity": "HIGH",
-      "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
-      "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+      "hits": 7120,
+      "severity": "CRITICAL",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices. [...]",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
@@ -117,14 +117,14 @@
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
-      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
-      "hits": 6971,
+      "hits": 6955,
       "severity": "CRITICAL",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
-      "summary": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
-      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
     },
     {
       "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
