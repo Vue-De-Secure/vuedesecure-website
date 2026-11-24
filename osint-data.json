@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T23:43:38.867Z",
+  "lastUpdated": "2026-11-24T09:31:22.408Z",
   "feedSources": [
     "CISA Advisories",
     "SANS ISC",
@@ -12,7 +12,7 @@
       "id": "threat-1",
       "shortLabel": "Hackers Exploit Critical ASPNET",
       "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
-      "hits": 26715,
+      "hits": 25615,
       "severity": "CRITICAL",
       "color": "#ef4444",
       "source": "The Hacker News",
@@ -36,7 +36,7 @@
       "id": "threat-3",
       "shortLabel": "N-able Discloses Critical Mail",
       "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
-      "hits": 22457,
+      "hits": 21357,
       "severity": "CRITICAL",
       "color": "#38bdf8",
       "source": "The Hacker News",
@@ -57,10 +57,30 @@
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
+      "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 9356,
+      "severity": "CRITICAL",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+    },
+    {
+      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 8860,
+      "severity": "CRITICAL",
+      "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+      "summary": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls to shield systems from exploits, giving d",
+      "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
+    },
+    {
       "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
       "source": "The Hacker News",
       "time": "Live Telemetry",
-      "hits": 8793,
+      "hits": 8298,
       "severity": "CRITICAL",
       "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
       "summary": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting bi",
@@ -70,7 +90,7 @@
       "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
       "source": "The Hacker News",
       "time": "Live Telemetry",
-      "hits": 8735,
+      "hits": 8240,
       "severity": "CRITICAL",
       "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
       "summary": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote access",
@@ -80,21 +100,11 @@
       "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
       "source": "The Hacker News",
       "time": "Live Telemetry",
-      "hits": 8582,
+      "hits": 8087,
       "severity": "CRITICAL",
       "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
       "summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute ",
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
-    },
-    {
-      "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
-      "source": "The Hacker News",
-      "time": "Live Telemetry",
-      "hits": 7958,
-      "severity": "CRITICAL",
-      "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
-      "summary": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open. This week's stories show how quickly ",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
       "title": "Elecbrakes EB2, VM1, ELBC2000",
@@ -117,6 +127,16 @@
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
+      "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 7463,
+      "severity": "CRITICAL",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+      "summary": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open. This week's stories show how quickly ",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
@@ -125,26 +145,6 @@
       "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
       "summary": "<div class=\"OutlineElement Ltr SCXW1462417 BCX8\"> <p>CISA has added two new vulnerabilities to its <a class=\"Hyperlink SCXW1462417 BCX8\" href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" rel=\"noreferrer noopener\"><u>Known Exploited Vulnerabilities (KEV) Catalog<",
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
-    },
-    {
-      "title": "Dorsett Controls InfoScan",
-      "source": "CISA Advisories",
-      "time": "Live Telemetry",
-      "hits": 6849,
-      "severity": "HIGH",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
-      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information,",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
-    },
-    {
-      "title": "Siemens ROS#",
-      "source": "CISA Advisories",
-      "time": "Live Telemetry",
-      "hits": 6762,
-      "severity": "HIGH",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
-      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-321-06.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pas",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     }
   ]
 }
