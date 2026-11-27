@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T07:54:58.763Z",
+  "lastUpdated": "2026-11-27T20:59:29.819Z",
   "feedSources": [
     "CISA Advisories",
     "SANS ISC",
@@ -10,77 +10,57 @@
   "topThreats": [
     {
       "id": "threat-1",
-      "shortLabel": "Unpatched Cacti Zero-Day Enables",
-      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
-      "hits": 22448,
+      "shortLabel": "Unpatched Cacti zero-day with",
+      "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+      "hits": 21477,
       "severity": "CRITICAL",
       "color": "#ef4444",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+      "summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
+      "id": "threat-2",
+      "shortLabel": "Unpatched Cacti Zero-Day Enables",
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "hits": 20248,
+      "severity": "CRITICAL",
+      "color": "#facc15",
       "source": "The Hacker News",
       "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
       "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL a",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
-      "id": "threat-2",
-      "shortLabel": "Autonomy Logic OpenPLC Runtime",
-      "title": "Autonomy Logic OpenPLC Runtime",
-      "hits": 18809,
-      "severity": "HIGH",
-      "color": "#facc15",
-      "source": "CISA Advisories",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
-      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-323-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created.</s",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
-    },
-    {
       "id": "threat-3",
-      "shortLabel": "Hackers Exploit Two GeoServer",
-      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-      "hits": 18033,
+      "shortLabel": "US Air Force cloud",
+      "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+      "hits": 17929,
       "severity": "CRITICAL",
       "color": "#38bdf8",
-      "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-      "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerabil",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+      "summary": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]",
       "remediation": "Board/Executive: Mandate immediate emergency asset sweep for exposed interfaces. Task Execution: Apply vendor patch or emergency WAF virtual patch, audit access logs for IOCs, and restrict management ports."
     }
   ],
   "streamItems": [
     {
-      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-      "source": "The Hacker News",
-      "time": "Live Telemetry",
-      "hits": 8108,
-      "severity": "CRITICAL",
-      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
-      "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. ",
-      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
-    },
-    {
       "title": "AutomationDirect C-More EA9 Programming Software",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 7882,
+      "hits": 7635,
       "severity": "HIGH",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
       "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-328-01.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instab",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
-      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
-      "source": "BleepingComputer",
-      "time": "Live Telemetry",
-      "hits": 7531,
-      "severity": "CRITICAL",
-      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
-      "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
-      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
-    },
-    {
       "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 7531,
+      "hits": 7283,
       "severity": "HIGH",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
       "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-328-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ P",
@@ -90,60 +70,80 @@
       "title": "Danfoss AK-SM 8xxA Series",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 7421,
+      "hits": 7173,
       "severity": "HIGH",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
       "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-328-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver pri",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
+      "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 6741,
+      "severity": "HIGH",
+      "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+      "summary": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
+      "title": "pCloud confirms password manager hack after suspicious login alerts",
+      "source": "BleepingComputer",
+      "time": "Live Telemetry",
+      "hits": 6714,
+      "severity": "HIGH",
+      "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+      "summary": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+    },
+    {
+      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+      "source": "The Hacker News",
+      "time": "Live Telemetry",
+      "hits": 6666,
+      "severity": "HIGH",
+      "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+      "summary": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a bogus site for a snipi",
+      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
+    },
+    {
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "source": "CISA Advisories",
+      "time": "Live Telemetry",
+      "hits": 6539,
+      "severity": "CRITICAL",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "summary": "<div class=\"OutlineElement Ltr SCXW1462417 BCX8\"> <p>CISA has added three new vulnerabilities to its <a class=\"Hyperlink SCXW1462417 BCX8\" href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" rel=\"noreferrer noopener\"><u>Known Exploited Vulnerabilities (KEV) Catalo",
+      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
+    },
+    {
       "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 6606,
+      "hits": 6359,
       "severity": "CRITICAL",
       "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
       "summary": "<div class=\"OutlineElement Ltr SCXW1462417 BCX8\"> <p>CISA has added 10 new vulnerabilities to its <a class=\"Hyperlink SCXW1462417 BCX8\" href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\" rel=\"noreferrer noopener\"><u>Known Exploited Vulnerabilities (KEV) Catalog</",
       "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
     },
     {
-      "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+      "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
       "source": "BleepingComputer",
       "time": "Live Telemetry",
-      "hits": 6519,
-      "severity": "HIGH",
-      "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
-      "summary": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. [...]",
+      "hits": 6324,
+      "severity": "CRITICAL",
+      "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+      "summary": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. ",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     },
     {
-      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
-      "source": "The Hacker News",
-      "time": "Live Telemetry",
-      "hits": 6418,
-      "severity": "CRITICAL",
-      "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
-      "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two o",
-      "remediation": "Board/Executive: Evaluate organizational exposure against NIST CSF 2.0 governance metrics. Task Execution: Verify endpoint telemetry in SIEM, apply vendor security mitigations, and cross-reference internal asset databases."
-    },
-    {
-      "title": "Elecbrakes EB2, VM1, ELBC2000",
+      "title": "libumqtt",
       "source": "CISA Advisories",
       "time": "Live Telemetry",
-      "hits": 6370,
+      "hits": 6313,
       "severity": "HIGH",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
-      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-323-02.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a traile",
-      "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
-    },
-    {
-      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-      "source": "The Hacker News",
-      "time": "Live Telemetry",
-      "hits": 6256,
-      "severity": "CRITICAL",
-      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
-      "summary": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed. \"While we to",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-323-03.json\"><strong>View CSAF</strong></a></p> <h2>Summary</h2> <p><strong>Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory c",
       "remediation": "Board/Executive: Validate NIST CSF 2.0 / NERC CIP / 10 CFR 73.54 boundary isolation. Task Execution: Enforce unidirectional or zero-trust Purdue Model conduits, rotate boundary credentials, and monitor engineering workstation logs."
     }
   ]
